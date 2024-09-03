@@ -1,0 +1,147 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fafafa;
+  color: #262626;
+}
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.sidebar {
+  width: 20%;
+  padding: 20px;
+  background-color: #fff;
+  border-right: 1px solid #dbdbdb;
+}
+
+.logo {
+  font-family: 'Billabong', cursive;
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav ul li {
+  margin-bottom: 20px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+}
+
+.material-icons {
+  margin-right: 10px;
+  font-size: 24px;
+}
+
+.more-options {
+  margin-top: 50px;
+}
+
+.more-options p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.content {
+  width: 60%;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.story-box {
+  display: flex;
+  overflow-x: auto;
+  margin-bottom: 20px;
+}
+
+.story {
+  margin-right: 15px;
+  text-align: center;
+}
+
+.story-pic {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #dbdbdb;
+}
+
+.post-card {
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+}
+
+.profile-pic {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.post-image {
+  width: 100%;
+}
+
+.card-footer {
+  padding: 10px;
+}
+
+.icon-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+
+.suggestions {
+  width: 20%;
+  padding: 20px;
+  background-color: #fff;
+  border-left: 1px solid #dbdbdb;
+}
+
+.profile-bar {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.profile-pic-small {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+.gray-text {
+  color: #8e8e8e;
+}
+
+.suggestions-list {
+  margin-top: 20px;
+}
+
+.suggestions-list button {
+  background-color: transparent;
+  border: none;
+  color: #0095f6;
+  cursor: pointer;
+}
